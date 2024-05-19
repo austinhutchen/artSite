@@ -1,0 +1,52 @@
+.routes a{
+ cursor: pointer;
+ margin :0 10px;
+}
+.routes a:hover {
+ text-decoration: underline;
+}
+.heading{
+ align-items: center;
+ justify-content: center;
+ display:flex;
+ color: #ffffff; // White color
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); // Text shadow
+ font-size: 2rem;
+
+}
+.navbar {
+ padding-top: 30px !important;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.homeImages img{
+ width: auto;
+ height: 40vh;
+}
+.homeImages {
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+ 0% {
+  opacity: 0;
+  transform: translateX(100%);
+ }
+50%{
+ opacity: 0.3;
+
+}
+ 100% {
+  opacity: 1;
+  transform: translateX(0%);
+
+ }
+}
