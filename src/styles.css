@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  background-image: radial-gradient(circle, rgba(227, 89, 137, 1) 19%, rgba(102, 213, 85, 1) 61%, rgba(34, 125, 179, 1) 100%);
+}
+
+a {
+  color: white;
+  font-weight: 250;
+  font-size: larger;
+}/*# sourceMappingURL=styles.css.map */

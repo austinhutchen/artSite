@@ -1,53 +1,60 @@
-.routes a{
+.routes a {
  cursor: pointer;
- margin :0 10px;
+ margin: 0 10px;
 }
+
 .routes a:hover {
  text-decoration: underline;
 }
-.heading{
+
+.heading {
  align-items: center;
  justify-content: center;
- display:flex;
+ display: flex;
  color: #ffffff; // White color
- text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); // Text shadow
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); // Text shadow
  font-size: 2rem;
-
 }
+
 .navbar {
  padding-top: 30px !important;
-
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
 }
 
-.heading img{
+.heading img {
  width: auto;
  height: 5vh;
 }
-.homeImages img{
+
+.homeImages img {
  width: auto;
  height: 40vh;
+ border: 1.7px solid blue;
+ border-radius: 10px;
 }
+
 .homeImages {
 
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
- animation: fadeIn 1.3s;
+ animation: fadeIn 1.7s ease-in-out;
 }
 
 @keyframes fadeIn {
  0% {
-  opacity: 0;
-  transform: translateY(100%);
+  opacity: 0.1;
+  transform: translateY(0);
  }
-50%{
- opacity:0.35;
-}
+
+ 50% {
+  opacity: 0.50;
+ }
+
  100% {
   opacity: 1;
   transform: translateY(0);
