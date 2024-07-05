@@ -1,25 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 html {
- background-image: radial-gradient(circle, rgba(227, 89, 137, 1) 19%, rgba(102, 213, 85, 1) 61%, rgba(34, 125, 179, 1) 100%);
+  background-image: radial-gradient(farthest-side circle, rgba(227, 89, 137, 1) 19%, rgba(102, 213, 85, 1) 61%, rgba(34, 125, 179, 1) 100%);
 }
 
 a {
- color: white;
- font-weight: 250;
- font-size: larger;
+  color: white;
+  font-weight: 250;
+  font-size: larger;
 }
-.routes{
- display:flex;
- flex-direction: row;
- align-items: center;
- justify-content: center;
+
+.routes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.routes a{
-  color: rgba(180, 235, 53,0.9);
+
+.routes a {
+  color: rgba(180, 235, 53, 0.9);
   font-weight: 300;
-  border: 1.1px solid tan;
+  border: 1px solid tan;
   font-weight: bold;
-  border-radius: 1rem;
-  padding:3px;
+  border-radius: 0.7rem;
+  padding: 3px;
   font-size: 1.7rem;
-}         
+}

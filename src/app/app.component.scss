@@ -10,6 +10,7 @@
 .heading {
  align-items: center;
  justify-content: center;
+ animation: popIn 0.8s;
  display: flex;
  color: #ffffff; // White color
  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); // Text shadow
@@ -22,6 +23,8 @@
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ animation: popIn 0.6s;
+
 }
 
 .heading img {
@@ -37,27 +40,37 @@
 }
 
 .homeImages {
-
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
- animation: fadeIn 1.7s ease-in-out;
+ animation: popIn 0.6s;
 }
 
 @keyframes fadeIn {
  0% {
-  opacity: 0.1;
-  transform: translateY(0);
- }
-
- 50% {
-  opacity: 0.50;
+  opacity: 0;
+  transform: translateY(-100%);
  }
 
  100% {
   opacity: 1;
   transform: translateY(0);
+ }
+}
 
+/*# sourceMappingURL=app.component.css.map */
+
+
+
+@keyframes popIn {
+ 0% {
+  opacity: 0;
+  transform: scale(0.1);
+ }
+
+ 100% {
+  opacity: 1;
+  transform: scale(1);
  }
 }

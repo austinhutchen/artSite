@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'oliviaArtSite';
+  images = [
+    { src: 'assets/pottery1.webp', title: 'piece1', key: 'project1' },
+    { src: 'assets/pottery2.webp', title: 'piece2', key: 'project2' },
+    // Add more images as needed
+  ];
 }
