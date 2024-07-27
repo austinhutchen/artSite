@@ -31,12 +31,12 @@
 
 .homeImages img {
   width: auto;
-  height: 40vh;
+  height: 30vh;
 }
 
 .homeImages {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   animation: popIn 0.5s;
