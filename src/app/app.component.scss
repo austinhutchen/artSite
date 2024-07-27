@@ -1,64 +1,79 @@
 .routes a {
- cursor: pointer;
- margin: 0 10px;
-height: auto;
-border-radius: 200 / 2;
+    cursor: pointer;
+    height: auto;
+    border-radius: 600 / 200;
+    border-color: violet;
+    color: violet;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 0px rgba(148, 165, 65, 0.8); // Text shadow
 }
 
 .routes a:hover {
- text-decoration: underline;
+    text-decoration: underline;
 }
 
 .heading {
- align-items: center;
- justify-content: center;
- animation: popIn 0.8s;
- display: flex;
- color: #ffffff; // White color
- text-shadow: 2px 2px 4px rgba(130, 32, 89, 0.8); // Text shadow
- font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    animation: popIn 0.8s;
+    display: flex;
+    color: violet; // White color
+    text-shadow: 2px 4px 4px rgba(148, 165, 65, 0.8); // Text shadow
+    font-size: 2.4rem;
+}
+
+.bunny {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bunny img {
+    height: 6vh;
+
 }
 
 .navbar {
- padding-top: 20px !important;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- animation: popIn 0.6s;
+    padding-top: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: popIn 0.6s;
 }
 
 .heading img {
- width: auto;
- height: 5vh;
+    width: auto;
+    height: 5vh;
 }
 
 .homeImages img {
- width: auto;
- height: 30vh;
- border: 1.7px solid grey;
- border-radius: 10px;
+    width: auto;
+    height: 30vh;
+    border: 1.7px solid grey;
+    border-radius: 10px;
 }
 
 .homeImages {
- display: flex;
- gap: 0.005vw;
- flex-direction: row;
- align-items: center;
- justify-content: center;
- animation: popIn 1s;
+    display: flex;
+    gap: 0.005vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    animation: popIn 1s;
 }
 
 @keyframes fadeIn {
- 0% {
-  opacity: 0;
-  transform: translateY(-100%);
- }
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
 
- 100% {
-  opacity: 1;
-  transform: translateY(0);
- }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /*# sourceMappingURL=app.component.css.map */
@@ -66,13 +81,13 @@ border-radius: 200 / 2;
 
 
 @keyframes popIn {
- 0% {
-  opacity: 0;
-  transform: scale(0.1);
- }
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
 
- 100% {
-  opacity: 1;
-  transform: scale(1);
- }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
