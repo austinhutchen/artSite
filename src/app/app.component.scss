@@ -1,6 +1,8 @@
 .routes a {
  cursor: pointer;
  margin: 0 10px;
+height: auto;
+border-radius: 400 / 2;
 }
 
 .routes a:hover {
@@ -18,13 +20,12 @@
 }
 
 .navbar {
- padding-top: 30px !important;
+ padding-top: 20px !important;
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
  animation: popIn 0.6s;
-
 }
 
 .heading img {
