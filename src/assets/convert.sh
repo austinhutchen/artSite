@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Define the image types to search for
-image_types=("*.jpeg" "*.jpg" "*.tiff" "*.tif" "*.png")
+image_types=("*.jpeg" ".HEIC" "*.jpg" "*.tiff" "*.tif" "*.png")
 
 # Iterate over each image type
 for type in "${image_types[@]}"; do
