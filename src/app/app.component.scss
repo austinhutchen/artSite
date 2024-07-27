@@ -2,7 +2,7 @@
  cursor: pointer;
  margin: 0 10px;
 height: auto;
-border-radius: 400 / 2;
+border-radius: 200 / 2;
 }
 
 .routes a:hover {
@@ -42,10 +42,11 @@ border-radius: 400 / 2;
 
 .homeImages {
  display: flex;
+ gap: 0.005vw;
  flex-direction: row;
  align-items: center;
  justify-content: center;
- animation: popIn 0.6s;
+ animation: popIn 1s;
 }
 
 @keyframes fadeIn {
