@@ -43,10 +43,9 @@
     align-items: center;
     justify-content: center;
     animation: popIn 0.8s;
-    color: rgba(255, 7, 255, 0.796); // White color
-    font-size: 3.7vw;
+    color: rgba(255, 235, 205,0.9);
+    font-size: 3.7vh;
     font-style: helvetica;
-    border-radius: 1.1rem;
 }
 
 .bunny {
@@ -81,8 +80,7 @@
 .homeImages img {
     width: auto;
     height: 30vh;
-    border: 1.7px solid grey;
-    border-radius: 10px;
+    border: 1.7px solid blanchedalmond;
 
 }
 
