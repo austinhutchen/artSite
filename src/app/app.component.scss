@@ -14,13 +14,22 @@
 }
 
 
-
+.homeImages {
+    display: flex;
+    gap: 0.010vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    animation: popIn 1s;
+}
 
 @media only screen and (max-width: 600px){
     .homeImages {
         display: flex;
         gap: 0.010vh;
        flex-direction: column;
+       align-items: center;
+       justify-content: center;
     }
     
 } 
@@ -48,7 +57,7 @@
 }
 
 .bunny img {
-    height:10svh;
+    height:8svh;
     width:auto;
 
 }
@@ -75,14 +84,7 @@
 
 }
 
-.homeImages {
-    display: flex;
-    gap: 0.010vw;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    animation: popIn 1s;
-}
+
 
 @keyframes fadeIn {
     0% {
