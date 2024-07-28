@@ -18,6 +18,8 @@
 
 @media only screen and (max-width: 600px){
     .homeImages {
+        display: flex;
+        gap: 0.010vh;
        flex-direction: column;
     }
     
