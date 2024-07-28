@@ -23,16 +23,17 @@
     animation: popIn 1s;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .homeImages {
         display: flex;
         gap: 0.010vh;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    
-} 
+
+}
+
 .routes a:hover {
     text-decoration: underline;
 }
@@ -46,7 +47,7 @@
     text-shadow: 2px 4px 4px rgba(148, 165, 65, 0.8); // Text shadow
     font-size: 3.7vw;
     font-style: arial;
-   border-radius: 1.1rem;
+    border-radius: 1.1rem;
 }
 
 .bunny {
@@ -54,11 +55,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    animation: popIn 1s;
+
 }
 
 .bunny img {
-    height:8svh;
-    width:auto;
+    height: 8svh;
+    width: auto;
 
 }
 
